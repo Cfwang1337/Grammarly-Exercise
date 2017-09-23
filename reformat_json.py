@@ -6,7 +6,7 @@ def clean_sources(x):
     if x is None:
         return "other"
     else:
-        return x.split('_')[0].split('.')[0].lower()
+        return x.split('.')[0].lower()
 
 
 def main():
